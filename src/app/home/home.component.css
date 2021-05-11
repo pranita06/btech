@@ -1,0 +1,166 @@
+@media (min-width: 1200px) {
+    .container {
+      width: 5000px;
+    }
+  }
+.container {  
+    background-image: url("C:\Users\Dell\angular\login\src\assets\images\tourism.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5400px;
+    height: 550px;  
+}
+.centered {
+    text-align: center;
+}
+
+.hide {
+    max-height: 0 !important;
+}
+#features ul {
+    margin: 10px;   
+}
+#features ul li {
+    width: 270px;
+    height: 250px;
+    padding-top: 40px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+#features ul li.feature-1 {
+    background: url("C:\Users\Dell\angular\login\src\assets\images\pune.jpg") no-repeat top center;
+}
+#features ul li.feature-2 {
+    background: url("C:\Users\Dell\angular\login\src\assets\images\karad.jpg") no-repeat top center;
+}
+#features ul li.feature-3 {
+    background: url("C:\Users\Dell\angular\login\src\assets\images\beed.jpg") no-repeat top center;
+}
+#features ul li.feature-4 {
+    background: url("C:\Users\Dell\angular\login\src\assets\images\mumbai.jpg") no-repeat top center;
+}
+#features ul li.feature-5 {
+    background: url("C:\Users\Dell\angular\login\src\assets\images\kolhapur.jpg") no-repeat top center;
+}
+#features ul li.feature-6 {
+    background: url("C:\Users\Dell\angular\login\src\assets\images\nashik.jpg") no-repeat top center;
+}
+footer {
+    padding: 10px;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+#footer-info {
+    width: 180px;
+    float: left;
+    margin-top: 10px;
+}
+#footer-links {
+    width: 520px;
+    float: right;
+}
+#footer-links ul {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+}
+#footer-links ul li {
+    margin: 10px 0;
+    color: white;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    background-color: #fff;
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: #444;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 300;
+    color: #444;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+h5 {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #02b8dd;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 13px;
+    color:white;
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 60px;
+    padding: 0 10px;
+    width: 940px;
+    text-align: center;
+}

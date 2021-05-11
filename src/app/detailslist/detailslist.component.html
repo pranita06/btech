@@ -1,0 +1,25 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+      <h2>History</h2>
+    </div>
+    <div class="panel-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>History</th>
+            <th>Search</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users | async">
+            <td>{{user.history}}</td>
+            <td><button (click)="deleteUser(user.id)" class="btn btn-danger">Delete</button>
+                <button (click)="searchUser(user.id)" class="btn btn-info" style="margin-left: 10px">Search</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  

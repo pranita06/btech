@@ -1,0 +1,11 @@
+.container {  
+    background-image: url("C:\Users\Dell\angular\login\src\assets\images\karad.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5400px;
+    height: 550px;  
+}
+.card {
+    opacity: 0.8;
+}
